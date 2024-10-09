@@ -33,7 +33,7 @@ class TurtleControlNode(Node):
     def init_subscribers(self):
         """Inicializa os subscribers."""
         # Subscreve ao tópico de pose da tartaruga
-	self.create_subscription(
+        self.create_subscription(
             Pose,
             'ant/turtle1/pose',
             self.pose_callback,
@@ -82,13 +82,24 @@ class TurtleControlNode(Node):
         y_error = self.y_goal - self.y
         distance = math.sqrt(x_error ** 2 + y_error ** 2)
         angle_to_goal = math.atan2(y_error, x_error)
+        angular_error = angle_to_goal - self.theta
+
+        # Normalizar o erro angular para estar no intervalo [-pi, pi]
+        angular_error = math.atan2(math.sin(angular_error), math.cos(angular_error))
 
         # Controle proporcional simples
         linear_velocity = self.k_linear * distance
-        angular_velocity = self.k_angular * (angle_to_goal - self.theta)
+        angular_velocity = self.k_angular * angular_error
 
-        # Limitar a velocidade angular para evitar oscilações
-        angular_velocity = max(min(angular_velocity, 2.0), -2.0)
+        # Limitar velocidades
+        linear_velocity = min(linear_velocity, 2.0)  # Limite da velocidade linear
+        angular_velocity = max(min(angular_velocity, 2.0), -2.0)  # Limite da velocidade angular
+
+        # Parar a tartaruga quando estiver próxima do objetivo
+        if distance < 0.1:
+            linear_velocity = 0.0
+            angular_velocity = 0.0
+            self.get_logger().info('Objetivo alcançado!')
 
         # Cria e publica a mensagem de velocidade
         cmd = Twist()
@@ -110,5 +121,3 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-
-
