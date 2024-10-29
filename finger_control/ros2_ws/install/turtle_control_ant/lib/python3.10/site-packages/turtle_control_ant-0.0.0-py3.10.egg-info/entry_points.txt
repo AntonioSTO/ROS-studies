@@ -1,0 +1,4 @@
+[console_scripts]
+finger_pub = turtle_control_ant.finger_pub:main
+turtle_control = turtle_control_ant.turtle_control:main
+
