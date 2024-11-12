@@ -1,0 +1,21 @@
+[0.532s] Invoking command in '/home/antonio/Desktop/ros2_ws/src/turtle_control_ant': PYTHONPATH=/home/antonio/Desktop/ros2_ws/build/turtle_control_ant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_control_ant build --build-base /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/build install --record /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/install.log --single-version-externally-managed install_data
+[0.748s] running egg_info
+[0.748s] writing ../../build/turtle_control_ant/turtle_control_ant.egg-info/PKG-INFO
+[0.748s] writing dependency_links to ../../build/turtle_control_ant/turtle_control_ant.egg-info/dependency_links.txt
+[0.749s] writing entry points to ../../build/turtle_control_ant/turtle_control_ant.egg-info/entry_points.txt
+[0.749s] writing requirements to ../../build/turtle_control_ant/turtle_control_ant.egg-info/requires.txt
+[0.749s] writing top-level names to ../../build/turtle_control_ant/turtle_control_ant.egg-info/top_level.txt
+[0.750s] reading manifest file '../../build/turtle_control_ant/turtle_control_ant.egg-info/SOURCES.txt'
+[0.752s] writing manifest file '../../build/turtle_control_ant/turtle_control_ant.egg-info/SOURCES.txt'
+[0.752s] running build
+[0.752s] running build_py
+[0.752s] running install
+[0.752s] running install_lib
+[0.753s] running install_data
+[0.753s] running install_egg_info
+[0.755s] removing '/home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant-0.0.0-py3.10.egg-info' (and everything under it)
+[0.755s] Copying ../../build/turtle_control_ant/turtle_control_ant.egg-info to /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant-0.0.0-py3.10.egg-info
+[0.756s] running install_scripts
+[0.774s] Installing turtle_control = turtle_control_ant.turtle_control:mainfinger_pub script to /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/turtle_control_ant
+[0.774s] writing list of installed files to '/home/antonio/Desktop/ros2_ws/build/turtle_control_ant/install.log'
+[0.792s] Invoked command in '/home/antonio/Desktop/ros2_ws/src/turtle_control_ant' returned '0': PYTHONPATH=/home/antonio/Desktop/ros2_ws/build/turtle_control_ant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_control_ant build --build-base /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/build install --record /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/install.log --single-version-externally-managed install_data

@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/turtle_control_ant/turtle_control_ant.egg-info
+writing ../../build/turtle_control_ant/turtle_control_ant.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_control_ant/turtle_control_ant.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_control_ant/turtle_control_ant.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_control_ant/turtle_control_ant.egg-info/requires.txt
+writing top-level names to ../../build/turtle_control_ant/turtle_control_ant.egg-info/top_level.txt
+writing manifest file '../../build/turtle_control_ant/turtle_control_ant.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtle_control_ant/turtle_control_ant.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_control_ant/turtle_control_ant.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/build
+creating /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/build/lib
+creating /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/build/lib/turtle_control_ant
+copying turtle_control_ant/turtle_control.py -> /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/build/lib/turtle_control_ant
+copying turtle_control_ant/__init__.py -> /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/build/lib/turtle_control_ant
+copying turtle_control_ant/finger_pub.py -> /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/build/lib/turtle_control_ant
+running install
+running install_lib
+creating /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant
+copying /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/build/lib/turtle_control_ant/turtle_control.py -> /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant
+copying /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/build/lib/turtle_control_ant/__init__.py -> /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant
+copying /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/build/lib/turtle_control_ant/finger_pub.py -> /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant
+byte-compiling /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant/turtle_control.py to turtle_control.cpython-310.pyc
+byte-compiling /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant/finger_pub.py to finger_pub.cpython-310.pyc
+running install_data
+creating /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/share/ament_index
+creating /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/share/ament_index/resource_index
+creating /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/share/ament_index/resource_index/packages
+copying resource/turtle_control_ant -> /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/share/ament_index/resource_index/packages
+copying package.xml -> /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/share/turtle_control_ant
+running install_egg_info
+Copying ../../build/turtle_control_ant/turtle_control_ant.egg-info to /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_control script to /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/turtle_control_ant
+writing list of installed files to '/home/antonio/Desktop/ros2_ws/build/turtle_control_ant/install.log'

@@ -1,0 +1,28 @@
+[0.734s] Invoking command in '/home/antonio/Desktop/ros2_ws/src/turtle_control_ant': PYTHONPATH=/home/antonio/Desktop/ros2_ws/build/turtle_control_ant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_control_ant build --build-base /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/build install --record /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/install.log --single-version-externally-managed install_data
+[0.962s] running egg_info
+[0.963s] writing ../../build/turtle_control_ant/turtle_control_ant.egg-info/PKG-INFO
+[0.963s] writing dependency_links to ../../build/turtle_control_ant/turtle_control_ant.egg-info/dependency_links.txt
+[0.964s] writing entry points to ../../build/turtle_control_ant/turtle_control_ant.egg-info/entry_points.txt
+[0.964s] writing requirements to ../../build/turtle_control_ant/turtle_control_ant.egg-info/requires.txt
+[0.964s] writing top-level names to ../../build/turtle_control_ant/turtle_control_ant.egg-info/top_level.txt
+[0.965s] reading manifest file '../../build/turtle_control_ant/turtle_control_ant.egg-info/SOURCES.txt'
+[0.966s] writing manifest file '../../build/turtle_control_ant/turtle_control_ant.egg-info/SOURCES.txt'
+[0.967s] running build
+[0.967s] running build_py
+[0.967s] copying turtle_control_ant/voice_control.py -> /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/build/lib/turtle_control_ant
+[0.967s] copying turtle_control_ant/turtle_control2.py -> /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/build/lib/turtle_control_ant
+[0.967s] running install
+[0.967s] running install_lib
+[0.968s] copying /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/build/lib/turtle_control_ant/voice_control.py -> /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant
+[0.968s] copying /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/build/lib/turtle_control_ant/turtle_control2.py -> /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant
+[0.969s] byte-compiling /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant/voice_control.py to voice_control.cpython-310.pyc
+[0.970s] byte-compiling /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant/turtle_control2.py to turtle_control2.cpython-310.pyc
+[0.970s] running install_data
+[0.970s] running install_egg_info
+[0.972s] removing '/home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant-0.0.0-py3.10.egg-info' (and everything under it)
+[0.972s] Copying ../../build/turtle_control_ant/turtle_control_ant.egg-info to /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant-0.0.0-py3.10.egg-info
+[0.973s] running install_scripts
+[0.991s] Installing turtle_control script to /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/turtle_control_ant
+[0.991s] Installing voice_control script to /home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/turtle_control_ant
+[0.991s] writing list of installed files to '/home/antonio/Desktop/ros2_ws/build/turtle_control_ant/install.log'
+[1.009s] Invoked command in '/home/antonio/Desktop/ros2_ws/src/turtle_control_ant' returned '0': PYTHONPATH=/home/antonio/Desktop/ros2_ws/build/turtle_control_ant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/Desktop/ros2_ws/install/turtle_control_ant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_control_ant build --build-base /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/build install --record /home/antonio/Desktop/ros2_ws/build/turtle_control_ant/install.log --single-version-externally-managed install_data

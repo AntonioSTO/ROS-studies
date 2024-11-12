@@ -1,0 +1,4 @@
+[console_scripts]
+turtle_control = turtle_control_ant.turtle_control2:main
+voice_control = turtle_control_ant.voice_control:main
+
