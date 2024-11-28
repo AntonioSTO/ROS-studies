@@ -1,0 +1,6 @@
+speechrecognition
+scipy
+numpy
+torch
+torchaudio
+speechbrain

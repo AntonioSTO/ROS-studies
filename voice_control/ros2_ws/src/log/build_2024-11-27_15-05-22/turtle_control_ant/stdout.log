@@ -1,0 +1,23 @@
+running egg_info
+writing ../build/turtle_control_ant/turtle_control_ant.egg-info/PKG-INFO
+writing dependency_links to ../build/turtle_control_ant/turtle_control_ant.egg-info/dependency_links.txt
+writing entry points to ../build/turtle_control_ant/turtle_control_ant.egg-info/entry_points.txt
+writing requirements to ../build/turtle_control_ant/turtle_control_ant.egg-info/requires.txt
+writing top-level names to ../build/turtle_control_ant/turtle_control_ant.egg-info/top_level.txt
+reading manifest file '../build/turtle_control_ant/turtle_control_ant.egg-info/SOURCES.txt'
+writing manifest file '../build/turtle_control_ant/turtle_control_ant.egg-info/SOURCES.txt'
+running build
+running build_py
+copying turtle_control_ant/voice_control.py -> /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib/turtle_control_ant
+running install
+running install_lib
+copying /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib/turtle_control_ant/voice_control.py -> /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant
+byte-compiling /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant/voice_control.py to voice_control.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/turtle_control_ant/turtle_control_ant.egg-info to /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_control script to /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/turtle_control_ant
+Installing voice_control script to /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/turtle_control_ant
+writing list of installed files to '/home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/install.log'

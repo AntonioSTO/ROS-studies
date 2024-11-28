@@ -1,0 +1,56 @@
+[0.575s] Invoking command in '/home/antonio/Desktop/ros2_ws/src/turtle_control_ant': PYTHONPATH=/home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtle_control_ant build --build-base /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build install --record /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/install.log --single-version-externally-managed install_data
+[0.803s] running egg_info
+[0.804s] creating ../build/turtle_control_ant/turtle_control_ant.egg-info
+[0.804s] writing ../build/turtle_control_ant/turtle_control_ant.egg-info/PKG-INFO
+[0.804s] writing dependency_links to ../build/turtle_control_ant/turtle_control_ant.egg-info/dependency_links.txt
+[0.805s] writing entry points to ../build/turtle_control_ant/turtle_control_ant.egg-info/entry_points.txt
+[0.805s] writing requirements to ../build/turtle_control_ant/turtle_control_ant.egg-info/requires.txt
+[0.805s] writing top-level names to ../build/turtle_control_ant/turtle_control_ant.egg-info/top_level.txt
+[0.806s] writing manifest file '../build/turtle_control_ant/turtle_control_ant.egg-info/SOURCES.txt'
+[0.807s] reading manifest file '../build/turtle_control_ant/turtle_control_ant.egg-info/SOURCES.txt'
+[0.807s] writing manifest file '../build/turtle_control_ant/turtle_control_ant.egg-info/SOURCES.txt'
+[0.807s] running build
+[0.807s] running build_py
+[0.808s] creating /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build
+[0.808s] creating /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib
+[0.808s] creating /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib/turtle_control_ant
+[0.808s] copying turtle_control_ant/voice_control.py -> /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib/turtle_control_ant
+[0.808s] copying turtle_control_ant/audiorecognizer.py -> /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib/turtle_control_ant
+[0.808s] copying turtle_control_ant/turtle_control.py -> /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib/turtle_control_ant
+[0.808s] copying turtle_control_ant/listener.py -> /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib/turtle_control_ant
+[0.808s] copying turtle_control_ant/__init__.py -> /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib/turtle_control_ant
+[0.809s] copying turtle_control_ant/voice_control_backup.py -> /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib/turtle_control_ant
+[0.809s] copying turtle_control_ant/finger_pub.py -> /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib/turtle_control_ant
+[0.809s] copying turtle_control_ant/turtle_control2.py -> /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib/turtle_control_ant
+[0.809s] running install
+[0.809s] running install_lib
+[0.810s] creating /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant
+[0.810s] copying /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib/turtle_control_ant/voice_control.py -> /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant
+[0.810s] copying /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib/turtle_control_ant/audiorecognizer.py -> /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant
+[0.810s] copying /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib/turtle_control_ant/turtle_control.py -> /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant
+[0.811s] copying /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib/turtle_control_ant/listener.py -> /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant
+[0.811s] copying /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib/turtle_control_ant/__init__.py -> /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant
+[0.811s] copying /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib/turtle_control_ant/voice_control_backup.py -> /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant
+[0.811s] copying /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib/turtle_control_ant/finger_pub.py -> /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant
+[0.811s] copying /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build/lib/turtle_control_ant/turtle_control2.py -> /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant
+[0.811s] byte-compiling /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant/voice_control.py to voice_control.cpython-310.pyc
+[0.812s] byte-compiling /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant/audiorecognizer.py to audiorecognizer.cpython-310.pyc
+[0.813s] byte-compiling /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant/turtle_control.py to turtle_control.cpython-310.pyc
+[0.814s] byte-compiling /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant/listener.py to listener.cpython-310.pyc
+[0.814s] byte-compiling /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant/__init__.py to __init__.cpython-310.pyc
+[0.814s] byte-compiling /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant/voice_control_backup.py to voice_control_backup.cpython-310.pyc
+[0.815s] byte-compiling /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant/finger_pub.py to finger_pub.cpython-310.pyc
+[0.815s] byte-compiling /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant/turtle_control2.py to turtle_control2.cpython-310.pyc
+[0.816s] running install_data
+[0.816s] creating /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/share/ament_index
+[0.816s] creating /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/share/ament_index/resource_index
+[0.817s] creating /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/share/ament_index/resource_index/packages
+[0.817s] copying resource/turtle_control_ant -> /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/share/ament_index/resource_index/packages
+[0.817s] copying package.xml -> /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/share/turtle_control_ant
+[0.817s] running install_egg_info
+[0.818s] Copying ../build/turtle_control_ant/turtle_control_ant.egg-info to /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages/turtle_control_ant-0.0.0-py3.10.egg-info
+[0.819s] running install_scripts
+[0.837s] Installing turtle_control script to /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/turtle_control_ant
+[0.837s] Installing voice_control script to /home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/turtle_control_ant
+[0.837s] writing list of installed files to '/home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/install.log'
+[0.857s] Invoked command in '/home/antonio/Desktop/ros2_ws/src/turtle_control_ant' returned '0': PYTHONPATH=/home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/Desktop/ros2_ws/src/install/turtle_control_ant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtle_control_ant build --build-base /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/build install --record /home/antonio/Desktop/ros2_ws/src/build/turtle_control_ant/install.log --single-version-externally-managed install_data

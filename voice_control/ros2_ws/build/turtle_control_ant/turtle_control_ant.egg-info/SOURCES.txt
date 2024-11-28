@@ -13,7 +13,10 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 turtle_control_ant/__init__.py
+turtle_control_ant/audiorecognizer.py
 turtle_control_ant/finger_pub.py
+turtle_control_ant/listener.py
 turtle_control_ant/turtle_control.py
 turtle_control_ant/turtle_control2.py
 turtle_control_ant/voice_control.py
+turtle_control_ant/voice_control_backup.py
